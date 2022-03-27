@@ -1,0 +1,25 @@
+
+<div class="wrapper">
+    <div style="text-align: center;">
+        <h1>로그인</h1>
+        <form method="POST">
+            {% csrf_token %}
+            {% if form.errors %}
+            <div class="alert alert-danger">
+            <p>입력 정보가 올바르지 않습니다.</p>
+            </div>
+          {% endif %}
+            <p>
+                <label for="id_email">이메일:</label>
+                    {{form.login}}
+            </p>
+
+            <p>
+                <label for="id_password">비밀번호:</label>
+                {{form.password}}
+            </p>
+
+        <p><input type="submit" class="btn btn-primary" value="login"></p>
+        </form>
+    </div>
+</div>

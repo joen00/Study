@@ -1,0 +1,86 @@
+.main {
+  display: flex;
+  width: 100%;
+  height: 90vh;
+  text-align: center;
+  background-color: #f7f7e6;
+}
+.first {
+  float: left;
+  width: 25%;
+  background-color: #f7f7e6;
+  text-align: center;
+  margin-top: 1rem;
+}
+.second {
+  background-color: #fffffa;
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+.thrid {
+  background-color: #f7f7e6;
+  float: left;
+  width: 25%;
+  height: 100%;
+  text-align: center;
+}
+.box {
+  width: 150px;
+  height: 150px;
+  border-radius: 70%;
+  overflow: hidden;
+  margin: 0 auto;
+  text-align: center;
+}
+.profile {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: 0px auto;
+  display: block;
+}
+progress {
+  width: 90%;
+  height: 10px;
+  text-align: center;
+}
+meter {
+  width: 90%;
+  height: 15px;
+  text-align: center;
+}
+
+.thrid-3 {
+  padding: 0.5rem;
+  width: 100%;
+  background-color: #f7f7e6;
+  text-align: center;
+  height: 7%;
+}
+.thrid-4 {
+  width: 100%;
+  background-color: #f7f7e6;
+  text-align: center;
+}
+.thrid-5 {
+  width: 100%;
+  background-color: #f7f7e6;
+  text-align: center;
+}
+.thrid-1-1 {
+  background-color: white;
+  font-size: 10px;
+}
+#btn4 {
+  background-color: #b4e0c4;
+  font-weight: bold;
+}
+.hi {
+  float: left;
+  font-weight: bold;
+}
+.hi2 {
+  float: left;
+  width: 60%;
+}

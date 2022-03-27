@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% load bootstrap4 %}
+{% block content %}
+<div class="wrapper" style="text-align: center;">
+    <h1>비밀번호 변경</h1>
+    <form method="POST">
+        {% csrf_token %}
+        {%include "form_errors.html"%}
+
+        {{form.as_p}}
+
+        <p><input type="submit" class="btn btn-primary" value="비밀번호 변경"> </p>
+    </form>
+</div>
+{% endblock %}

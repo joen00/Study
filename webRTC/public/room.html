@@ -1,0 +1,53 @@
+<html>
+
+  <style>
+    .container {
+        margin: 10px auto;
+        width: 400px;
+        height: 400px;
+        border: 2px #333 solid;
+        border-radius: 1px;
+    }
+    </style>  
+
+  <body>
+      <div id="screen_container">
+        <center>
+            <h1>room</h1>
+              <select id="cameras_select"></select>
+
+            <div>
+              <button id="audio_btn" type="button">mute</button>
+              <button id="camera_btn" type="button">camera on</button>
+         </div>
+            <div>
+                <video id="screen1" class='container'  autoplay="true" ></video>
+                <video id="screen2" class='container'  autoplay="true"></video>
+                <video id="screen3" class='container'  autoplay="true"></video>
+            </div>
+            <div>
+                <video id="screen4" class='container'  autoplay="true"></video>
+                <video id="screen5" class='container'  autoplay="true"></video>
+                <video id="screen6" class='container'  autoplay="true"></video>
+            </div>
+        </center>
+      </div>
+     
+  </body>
+
+<script>
+/*
+    if(window.location.protocol == "http:"){
+    
+    window.location.protocol = "https:";
+    window.location.port = 3443;
+    
+    }
+    */
+    </script>
+
+  <script src="/wrapper/simple-peer-wrapper.js"> </script>
+  <script  src="/public/client_code.js"></script>
+
+  
+</html>

@@ -1,0 +1,20 @@
+{
+  "name": "webrtc",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"node main.js\" \"node ./public/signaling_server.js\" "
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^6.3.0",
+    "express": "^4.17.1",
+    "ip": "^1.1.5",
+    "jsonwebtoken": "^8.5.1",
+    "simple-peer-server": "^0.0.8",
+    "simple-peer-wrapper": "^0.0.2"
+  }
+}

@@ -1,0 +1,14 @@
+.logincontain {
+  text-align: center;
+  border: 2px solid black;
+  width: 50%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 2%;
+  padding-bottom: 2%;
+  margin: 20px auto;
+  border-radius: 30px;
+}
+.checkhere {
+  padding-right: 60%;
+}

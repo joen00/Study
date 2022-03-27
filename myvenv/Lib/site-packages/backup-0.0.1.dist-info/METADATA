@@ -1,0 +1,9 @@
+Metadata-Version: 1.2
+Name: backup
+Version: 0.0.1
+Summary: Sweet docstring here.
+Home-page: https://gitlab.com/cw-andrews/pc-backup
+License: UNKNOWN
+Author: cw-andrews
+Author-email: cwandrews.oh@gmail.com
+Classifier: License :: OSI Approved :: MIT License

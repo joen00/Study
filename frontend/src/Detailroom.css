@@ -1,0 +1,30 @@
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+a:hover {
+  color: blue;
+  text-decoration: underline;
+}
+
+#btn1 {
+  background-color: #e04c4c;
+  font-weight: bold;
+  text-align: center;
+}
+#detailbtn {
+  background-color: #b4e0c4;
+  font-weight: bold;
+  text-align: center;
+}
+#btn3 {
+  background-color: #b4e0c4;
+}
+.detailgoal {
+  font-weight: bold;
+  font-size: 20px;
+}
