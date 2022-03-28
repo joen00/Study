@@ -1,5 +1,7 @@
 # studyONE
 
+스터디 개인 맞춤 추천시스템
+
 21.10.14 - django server create
 
 1. 메일 인증을 하기위해서는
