@@ -1,6 +1,6 @@
 # studyONE
 
-스터디 개인 맞춤 추천시스템
+스터디 개인 맞춤 추천시스템 :)
 
 21.10.14 - django server create
 
