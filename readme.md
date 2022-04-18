@@ -10,7 +10,6 @@
    이때 github에는 올라가지 않도록 주의한다.
 2. 채팅을 위해서는 redis 사용이 필요  
     docker run -p 6379:6379 -d redis:5  
-   +++ 개인 컴퓨터에서 실행시 migrations 안에 파일을 다 지우고 migrations을 새롭게 하는 것이 정신건강에 이로울 듯합니다.
 
    21.11.01 - basic function implementation
 
@@ -81,10 +80,6 @@ body - {"who":"guest pk" }
 response  
 200 - NO/YES  
 400 - error
-
-++추후 보안 여부에 따라 요청 정보는 달라질 수 있다.
-
-2021- 11- 04
 
 1. classroom CRUD 구현
 2. event 관련 함수 수정
