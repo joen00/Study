@@ -19,3 +19,4 @@ socket io의 namespace를 이용하여 구현하였음(room에는 최대 2개 �
 수정 필요  
 현재 media stream이 inactive할 때 stream 을 null로 만드는 방식으로  
 video를 이용 중인데 socket연결을 특정 지을 수 있을 수 있게 수정 필요  
+
