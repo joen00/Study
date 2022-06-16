@@ -1,4 +1,4 @@
-# studyONE
+# studyONE 
 
 스터디 개인 맞춤 추천시스템 :)
 
